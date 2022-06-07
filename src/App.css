@@ -1,0 +1,73 @@
+body {
+  background-color: #eee;
+}
+.header {
+  background-color: #f5ba13;
+  color: white;
+  padding: 15px 0 15px 50px;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.input {
+  background-color: #fff;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.inputTitle, .inputContent {
+  width: 98.5%;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  border: none;
+  outline: none;
+}
+.button {
+  color: #FFFFFF;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 2px solid #F5BA13;
+  background: #f5ba13;
+  margin-top: 20px;
+  position: relative;
+  left: 40%;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  cursor: pointer;
+}
+.note {
+  background-color: #fff;
+  width: 15%;
+  margin-left: 50px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px #ccc;
+  display: inline-table;
+}
+.title {
+  font-size: 20px;
+  margin: 0px;
+}
+.content {
+  font-size: 20px;
+  margin: 0px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.delete {
+  border: none;
+  background-color: white;
+  color: #f5ba13;
+  float: right;
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

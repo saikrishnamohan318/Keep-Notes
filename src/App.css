@@ -1,6 +1,12 @@
 body {
   background-color: #eee;
 }
+.totaldiv {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .header {
   background-color: #f5ba13;
   color: white;
@@ -66,8 +72,32 @@ body {
   cursor: pointer;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
   text-align: center;
   width: 100%;
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .header {
+    font-size: 20px;
+    padding-left: 20px;
+  } 
+  .input {
+    width: 70%;
+    padding: 15px;
+  }
+  .button {
+    padding: 5px 10px;
+    font-size: 12px;
+    text-shadow: none;
+  }
+  .note {
+    width: 70%;
+    position: relative;
+    left: 10px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .content {
+    font-size: 16px;
+  }
 }

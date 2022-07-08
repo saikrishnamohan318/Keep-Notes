@@ -20,10 +20,12 @@ function App() {
     })
   }
   return (
-    <div>
-      <Header />
-      <Input get={getNotes}/>
-      {notes.map((noteItem, index) => <Note key={index} id={index} del={delItem} title={noteItem.title} content={noteItem.content}/>)}
+    <div className='totaldiv'>
+      <div>
+        <Header />
+        <Input get={getNotes}/>
+        {notes.map((noteItem, index) => <Note key={index} id={index} del={delItem} title={noteItem.title} content={noteItem.content}/>)}
+      </div>
       <Footer />
     </div>
   );

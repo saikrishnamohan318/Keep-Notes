@@ -91,6 +91,8 @@ body {
   }
   .note {
     width: 70%;
+    position: relative;
+    right: 5px;
   }
   .title {
     font-size: 16px;
